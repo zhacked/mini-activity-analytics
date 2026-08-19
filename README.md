@@ -19,7 +19,10 @@ The system is designed as a local-first activity analytics platform. The Windows
 
 The application can run entirely on the local machine without requiring a cloud service.
 
-![Local System](docs/local-system.png)
+Sample Screenshot of local Dashboard
+
+<img width="1068" height="1882" alt="image" src="https://github.com/user-attachments/assets/b73e6d60-a336-4bb5-97c4-404e4a4dfc5e" />
+
 
 Example local flow:
 
@@ -43,7 +46,10 @@ http://localhost:4000
 
 The Chrome extension follows the same local architecture and sends browser activity to the backend API.
 
-![Dashboard](docs/dashboard.png)
+Sample Screenshot of Chrome Extension
+
+<img width="1065" height="519" alt="image" src="https://github.com/user-attachments/assets/ebc79af5-aed3-429d-b8c2-19e53e2cfca7" />
+
 
 ## Chrome Extension Setup
 
