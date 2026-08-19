@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Activity Analytics Agent",
+  "version": "1.0.0",
+  "description": "Tracks browser activity for the Activity Analytics platform.",
+  "permissions": [
+    "tabs",
+    "idle",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:4000/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Activity Analytics Agent"
+  }
+}
